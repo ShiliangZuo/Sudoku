@@ -79,6 +79,7 @@ problem.addConstraint(ExactSumConstraint(2), [s(3,4,0), s(2,3,0), s(1,4,0), s(2,
 
 
 dict = problem.getSolution()
+print("--- %s seconds ---" % (time.time() - start_time))
 if dict == None:
     print None
 for i in range(n):
